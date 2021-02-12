@@ -7,14 +7,15 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
-
+  margin-right: 20px;
+  margin-left: 20px;
   .logo-container {
     width: fit-content;
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 25px;
     margin-bottom: auto;  
     .logo-container, img {
       width: 50px;
@@ -31,6 +32,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 40px;
+    margin-top: 20px;
     .navbar-links, a{
       font-size: 18px;
       font-weight: 300px;

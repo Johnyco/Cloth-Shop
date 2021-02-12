@@ -1,17 +1,18 @@
 import React from 'react';
-import data from '../../mock/categories';
+import data from '../../mock/collection';
 import './styles.scss';
 
-const Categories = () => {
+const Collection = () => {
   return (
     <div className="catigories-container">
       <div className="catigories-row">
         {
           data.slice(0, 3)
-          .map(({id, name, image}) => (
+          .map(({id, title, image}) => (
             <div key={id} className="catigory-item-above">
+              <img src={image} alt="..." />
               <div className="item-label">
-                <h1 className="item-name">{name}</h1>
+                <h1 className="item-name">{title}</h1>
                 <h2 className="item-text">Shop Now</h2>
               </div>
             </div>
@@ -21,10 +22,11 @@ const Categories = () => {
       <div className="catigories-row">
         {
           data.slice(3, 5)
-          .map(({id, name, image}) => (
+          .map(({id, title, image}) => (
             <div key={id} className="catigory-item">
+              <img src={image} alt="..." />
               <div className="item-label">
-                <h1 className="item-name">{name}</h1>
+                <h1 className="item-name">{title}</h1>
                 <h2 className="item-text">Shop Now</h2>
               </div>
             </div>
@@ -35,4 +37,4 @@ const Categories = () => {
   );
 }
 
-export default Categories;
+export default Collection;

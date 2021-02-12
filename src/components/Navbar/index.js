@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss'
 import IconBag from '../../assets/icons/shopping-bag.png';
-import Logo from '../../assets/icons/king.png';
+import Logo from '../../assets/icons/crown.png';
 import { Link } from 'react-router-dom';
 import CartPopup from '../CartPopUp';
 
@@ -45,7 +45,6 @@ class Navbar extends React.Component {
     )
   }
 }
-
 
 export default Navbar;
 // JSX-means = JavaScript in XML

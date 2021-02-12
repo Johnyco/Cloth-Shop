@@ -1,0 +1,22 @@
+.collection-container {
+  .collection-item-container {
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 5px;
+    border: 2px solid black;
+  }
+  .collection-item-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    .collection-item-footer, h1 {
+      font-size: 18px;
+    }
+  }
+}
+
+
