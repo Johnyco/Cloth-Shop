@@ -159,43 +159,43 @@ export default [
     items: [
       {
         id: 1,
-        img: "https://hosty.xxx/i/684481b13c0e1fad1513f1a2938fe79d898d6609.jpg",
+        img: "https://hosty.xxx/i/7f0986d7523e1ee743f43adc49327a79dbfab487.jpg",
         name: "Women Clothes",
         price: "$500"
       },
       {
         id: 2,
-        img: "https://hosty.xxx/i/684481b13c0e1fad1513f1a2938fe79d898d6609.jpg",
+        img: "https://hosty.xxx/i/7f0986d7523e1ee743f43adc49327a79dbfab487.jpg",
         name: "Women Clothes",
         price: "$500"
       },
       {
         id: 3,
-        img: "https://hosty.xxx/i/684481b13c0e1fad1513f1a2938fe79d898d6609.jpg",
+        img: "https://hosty.xxx/i/7f0986d7523e1ee743f43adc49327a79dbfab487.jpg",
         name: "Women Clothes",
         price: "$500"
       },
       {
         id: 4,
-        img: "https://hosty.xxx/i/684481b13c0e1fad1513f1a2938fe79d898d6609.jpg",
+        img: "https://hosty.xxx/i/7f0986d7523e1ee743f43adc49327a79dbfab487.jpg",
         name: "Women Clothes",
         price: "$500"
       },
       {
         id: 5,
-        img: "https://hosty.xxx/i/684481b13c0e1fad1513f1a2938fe79d898d6609.jpg",
+        img: "https://hosty.xxx/i/7f0986d7523e1ee743f43adc49327a79dbfab487.jpg",
         name: "Women Clothes",
         price: "$500"
       },
       {
         id: 6,
-        img: "https://hosty.xxx/i/684481b13c0e1fad1513f1a2938fe79d898d6609.jpg",
+        img: "https://hosty.xxx/i/7f0986d7523e1ee743f43adc49327a79dbfab487.jpg",
         name: "Women Clothes",
         price: "$500"
       },
       {
-        id: 1,
-        img: "https://hosty.xxx/i/684481b13c0e1fad1513f1a2938fe79d898d6609.jpg",
+        id: 7,
+        img: "https://hosty.xxx/i/7f0986d7523e1ee743f43adc49327a79dbfab487.jpg",
         name: "Women Clothes",
         price: "$500"
       }

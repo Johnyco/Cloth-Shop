@@ -7,8 +7,8 @@ const CollectionOverview = () => {
   return (
     <div className="collection-overview">
       {
-        collection.map(({id, ...otherProps}) => (
-          <CollectionPreview key={id} {...otherProps} />
+        collection.map(({id, title, ...otherProps}) => (
+          <CollectionPreview key={id} title={title} {...otherProps} />
         ))
       }
     </div>

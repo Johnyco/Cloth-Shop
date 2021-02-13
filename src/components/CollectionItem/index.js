@@ -9,8 +9,8 @@ const CollectionItem = ({ img, name, price }) => {
         <img src={img} alt="..." />
       </div>
       <div className="collection-item-footer">
-        <h1>{name}</h1>
-        <h1>{price}</h1>
+        <div className="footer-item-info">{name}</div>
+        <div className="footer-item-info">{price}</div>
       </div>
     </div>
   )
